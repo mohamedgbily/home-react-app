@@ -1,0 +1,51 @@
+.layer{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    opacity: 0;
+    
+    transition: 0.4s all;
+   
+}
+.layer:hover{
+    opacity: 0.9;
+}
+.layer i{
+    font-size: 30px;
+    transition: 0.4s all;
+}
+.layer:hover i{
+    font-size: 70px;
+}
+
+.card-body{
+    position: relative;
+  overflow: hidden;
+}
+
+.inner{
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    
+}
+.inner img{
+    width: 600px;
+   
+    
+
+}
+body{
+    overflow-x: hidden;
+}

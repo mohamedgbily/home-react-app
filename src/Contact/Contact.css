@@ -1,0 +1,15 @@
+.line1{
+    width: 80px;
+    height: 5px;
+   background-color: black;
+   margin: 5px 15px;
+}
+.contact h2{
+    font-size: 39px;
+}
+.btn{
+    background-color: var(--secondary-color);
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+}

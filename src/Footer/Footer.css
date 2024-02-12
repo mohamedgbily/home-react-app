@@ -1,0 +1,32 @@
+.card{
+    background-color: var(--praimary-color);
+    border: 0;
+
+}
+.shape{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+.shape i{
+    color: #fff;
+}
+.icon{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.card-box p , .card-box h3 {
+    color: #fff;
+
+}
+.tail{
+    background-color: #1A252F;
+}
